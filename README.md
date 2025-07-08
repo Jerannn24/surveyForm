@@ -21,3 +21,23 @@ Jika kamu ingin melihat hasilnya secara langsung, buka file `index.html` di brow
 
 ## 📂 Struktur File
 
+surveyForm/
+├── index.html # File utama HTML
+├── styles.css # File CSS untuk styling
+└── README.md # Dokumentasi proyek
+
+## 🚀 Cara Menjalankan
+
+1. Clone repositori:
+   ```bash
+   git clone https://github.com/Jerannn24/surveyForm.git
+
+2. Buka file index.html di browser favoritmu.
+
+📬 Kontribusi
+Pull request dan saran sangat diterima. Jangan lupa untuk melakukan fork terlebih dahulu sebelum berkontribusi.
+
+🧑‍💻 Author
+Jerannn24
+GitHub: @Jerannn24
+
