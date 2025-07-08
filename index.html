@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Silahkan isi survey berikut.</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">
+                Nama : <input type="text" id="name" required placeholder="Masukkan Nama Kamu Disini..." />
+            </label>
+            <label id="email-label" for="email">
+                Email : <input type="email" id="email" required placeholder="email@example.com" />
+            </label>
+            <label id="number-label" for="number">
+                NIM : <input type="number" id="number" min="10000000" max="99999999" required
+                    placeholder="Masukkan Nim Kamu...">
+            </label>
+        </fieldset>
+        <fieldset>
+            Darimana Kamu Mengetahui Survey Ini!
+            <select name="dropdownn" id="dropdown" required>
+                <option value="">(Select)</option>
+                <option value="1">Google</option>
+                <option value="2">Instagram</option>
+                <option value="3">Youtube</option>
+                <option value="4">Other</option>
+            </select>
+        </fieldset>
+        <fieldset>Apa Gender Kamu !?
+            <label class="inline" id="radio-label">
+                <input type="radio" name="radio" id="radio" value="1" checked> Male
+            </label>
+            <label class="inline" id="radio-label">
+                <input type="radio" name="radio" id="radio" value="2"> Female
+            </label>
+        </fieldset>
+        <fieldset> Rasa Makanan Apa Yang Kamu Sukai??
+            <label class="inline" for="checkbox"><input id="checkbox" type="checkbox" name="checkbox" value="1" checked>
+                Manis </label>
+            <label class="inline" for="checkbox"><input id="checkbox" type="checkbox" name="checkbox" value="2">
+                Asin</label>
+            <label class="inline" for="checkbox"><input id="checkbox" type="checkbox" name="checkbox" value="3">
+                Pedas</label>
+            <label class="inline" for="checkbox"><input id="checkbox" type="checkbox" name="checkbox" value="4">
+                Asam</label>
+        </fieldset>
+        <fieldset>
+            <label for="textarea-label"><textarea name="textarea" id="textarea" rows="5"
+                    placeholder="Aku adalah seorang programmer..."></textarea></label>
+        </fieldset>
+        <label id="submit-label"><input type="submit" id="submit" /></label>
+    </form>
+</body>
+
+</html>
